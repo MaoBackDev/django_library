@@ -1,0 +1,15 @@
+<h1>Listado de libros por categoría</h1>
+
+<!-- <form method="get">
+    {% csrf_token %}
+    <input type="text" name="kword" placeholder="Ingrese nombre autor">
+    <input type="date" name="date1">
+    <input type="date" name="date2">
+    <button type="submit">Buscar</button>
+</form> -->
+
+
+{% for book in books_categories %}
+    <p>{{book.title}} | {{book.date_published}} | {{book.category}}</p>
+{% endfor %}
+    

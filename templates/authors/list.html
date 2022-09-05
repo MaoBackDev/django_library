@@ -1,0 +1,13 @@
+<h1>Listado de Autores</h1>
+
+<form method="get">
+    {% csrf_token %}
+    <input type="text" name="kword" placeholder="Ingrese nombre autor">
+    <button type="submit">Buscar</button>
+</form>
+
+
+{% for aut in authors %}
+    <p>{{aut.first_name}} | {{aut.last_name}} | {{aut.nationality}} | {{aut.age}}</p>
+{% endfor %}
+    

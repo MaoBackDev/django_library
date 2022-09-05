@@ -1,0 +1,4 @@
+++++++++++++++++++++++++++ COPIA DE SEGURIDAD BASE DE DATOS POSTGRES ++++++++++++++++++++++++++
+1- crear una carpeta
+2- Dar todos los permisos: chmod 777 nombre carpeta
+3-
